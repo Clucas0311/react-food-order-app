@@ -19,7 +19,7 @@ const Cart = ({ onClose }) => {
         <span>35.62</span>
       </div>
       <div className={classes.actions}>
-        <button className={classes["button-alt"]} onClick={onClose}>
+        <button className={classes["button--alt"]} onClick={onClose}>
           Close
         </button>
         <button className={classes.button}>Order</button>
